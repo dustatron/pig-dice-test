@@ -1,9 +1,9 @@
 // import { pingPong } from './ping-pong';
-// import { Game, checkRoll, nextTurn, checkWinner, newGame } from './dice';
+import { Game } from './game';
 import './scss/main.scss';
 import $ from 'jquery';
 
-// var game = new Game();
+var game = new Game();
 $(document).ready(function () {
 //   $("#player1-panel").css("background-color", "lightblue");
 //   $("#roll").click(function () {

@@ -1,4 +1,4 @@
-import { Triangle } from './../src/triangle.js';
+import { Triangle } from '../src/triangle.js';
 
 describe('Triangle', () => {
 	test('should correctly determine if three length are an equilateral triangle', () => {
