@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Demo</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="Demo project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<br>
+		<div class="jumbotron">
+			<h1>Pig Dice Game</h1>
+			<button type="button" class="btn btn-info" id="new-game">New Game</button>
+			<button type="button" class="btn btn-info" id="instructions">Instructions</button>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel" id="player1-panel">
+					<div class="panel-body">
+						<h2>Player 1</h2>
+						<hr>
+						<h1><div id="player1-score">0</div></h1>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel">
+					<div class="panel-body">
+						<h2>This Turn: </h2>
+						<hr>
+						<h1><div id="roll-result">0</div></h1>
+						<small>YOUR ROLL</small>
+						<h1><div id="running-total">0</div></h1>
+						<small>RUNNING TOTAL</small>
+						<br>
+						<button type="button" class="btn btn-success" id="roll">Roll</button>
+						<br>
+						<button type="button" class="btn btn-danger" id="hold">Hold</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel" id="player2-panel">
+					<div class="panel-body">
+						<h2>Player 2</h2>
+						<hr>
+						<h1><div id="player2-score">0</div></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
